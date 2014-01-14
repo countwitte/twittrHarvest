@@ -82,7 +82,8 @@ public class twitterHarvest {
 	    body.setTitle("indyref-fulldetails-"+myDateString);
 	    body.setDescription("tweets harvested on "+myDateString);
 	    body.setMimeType("text/plain");
-	    body.setParents(Arrays.asList(new ParentReference().setId("0B5GB1O5VghifSmwyQUY1aTdmWU0")));
+	    // sets parent directory
+	    body.setParents(Arrays.asList(new ParentReference().setId("xxxxxxxxx")));
 	    java.io.File fileContent = new java.io.File("trainingset.txt");
 		// add the extracted tweets and metadata as content for new file
 	    FileContent mediaContent = new FileContent("text/plain", fileContent);
