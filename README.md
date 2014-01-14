@@ -10,10 +10,11 @@ This project also uses LingPipe libraries for language analysis http://alias-i.c
 Requirements
 ============
 twitter4j libs http://twitter4j.org/
+
 LingPipe libs http://alias-i.com/lingpipe/
 
 Acknowledgements
 ================
 
-inspsiration for this code was taken from:
+inspiration for this code was taken from:
 http://cavajohn.blogspot.co.uk/2013/05/how-to-sentiment-analysis-of-tweets.html
